@@ -1,0 +1,27 @@
+{
+  "name": "windows-directory-localization",
+  "repository": {
+    "git": "https://github.com/e-chan1007/windows-directory-localization.git"
+  },
+  "version": "1.0.1",
+  "description": "Localize Windows's special directories such as Documents or Desktop",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "e_chan1007",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3"
+  },
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@types/ffi-napi": "^4.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "typescript": "next"
+  }
+}
